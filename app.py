@@ -27,3 +27,5 @@ def command():
         response = "Hello, I am NeuroDesk AI. How can I assist you today?"
     else:
         response = "Command analyzed. NeuroDesk AI is ready to assist you."
+
+   return jsonify({"response": response})
