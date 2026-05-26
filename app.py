@@ -11,3 +11,4 @@ def home():
 @app.route("/command", methods=["POST"])
 def command():
     data = request.get_json()
+    user_command = data.get("command", "").lower()
