@@ -5,21 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NeuroDesk AI</title>
 
-
-        <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="/static/style.css">
 </head>
 <body>
 
-        <div class="sidebar">
+    <div class="sidebar">
         <h1>NeuroDesk</h1>
-   <a href="#">Dashboard</a>
+
+        <a href="#">Dashboard</a>
         <a href="#">AI Assistant</a>
-      <a href="#">Tasks</a>
+        <a href="#">Tasks</a>
         <a href="#">Automation</a>
         <a href="#">Settings</a>
     </div>
 
-          <div class="orb"></div>
+    <main>
+
+        <section class="hero">
+
+            <div class="orb"></div>
 
             <h2>NeuroDesk AI Assistant</h2>
 
@@ -28,21 +32,25 @@
                 intelligent commands, and modern dashboard experience.
             </p>
 
-
-      </section>
+        </section>
 
         <section class="assistant-panel">
 
             <div class="chat-box" id="chat-box">
+                <div class="ai-message">
+                    Hello, I am NeuroDesk AI. How can I assist you today?
+                </div>
+            </div>
 
-                   <div class="input-area">
+            <div class="input-area">
 
                 <input
                     type="text"
                     id="command-input"
                     placeholder="Enter a command..."
                 >
-     <button onclick="sendCommand()">
+
+                <button onclick="sendCommand()">
                     Send
                 </button>
 
@@ -62,14 +70,14 @@
                 <p>8 Smart Workflows Running</p>
             </div>
 
-              <div class="card">
+            <div class="card">
                 <h3>AI Insights</h3>
                 <p>Productivity increased by 23%</p>
             </div>
 
         </section>
 
-      </main>
+    </main>
 
     <script src="/static/script.js"></script>
 
