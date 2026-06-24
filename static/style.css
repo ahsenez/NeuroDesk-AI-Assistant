@@ -48,3 +48,4 @@ main {
     border-radius: 30px;
     padding: 60px;
     background:
+        radial-gradient(circle at top right, #7c3aed, transparent 35%),
