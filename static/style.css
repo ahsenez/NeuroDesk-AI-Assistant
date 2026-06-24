@@ -50,3 +50,6 @@ main {
     background:
         radial-gradient(circle at top right, #7c3aed, transparent 35%),
         linear-gradient(135deg, #0f172a, #111827);
+    border: 1px solid rgba(255,255,255,0.08);
+}
+
