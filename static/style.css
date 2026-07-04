@@ -90,3 +90,4 @@ main {
 .ai-message,
 .user-message {
     padding: 16px 18px;
+    border-radius: 18px;
