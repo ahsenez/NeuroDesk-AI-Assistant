@@ -4,3 +4,5 @@ async function sendCommand() {
     const chatBox = document.getElementById("chat-box");
 
     const command = input.value;
+
+    if(command.trim() === "") return;
