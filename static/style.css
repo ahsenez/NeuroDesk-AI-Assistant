@@ -134,3 +134,4 @@ button {
 
 .cards {
     margin-top: 30px;
+    display: grid;
