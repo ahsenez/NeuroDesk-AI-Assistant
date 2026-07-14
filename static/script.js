@@ -6,3 +6,5 @@ async function sendCommand() {
     const command = input.value;
 
     if(command.trim() === "") return;
+
+    const userMessage = document.createElement("div");
