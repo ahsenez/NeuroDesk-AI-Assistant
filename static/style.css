@@ -129,5 +129,7 @@ button {
     background: #7c3aed;
     color: white;
     font-weight: bold;
-    cursor: pointer;
+    cursor: pointer;    
 }
+
+.cards {
