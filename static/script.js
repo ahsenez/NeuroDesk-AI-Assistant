@@ -15,3 +15,4 @@ async function sendCommand() {
 
     const response = await fetch("/command", {
         method: "POST",
+        headers: {
