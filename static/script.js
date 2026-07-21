@@ -18,3 +18,6 @@ async function sendCommand() {
         headers: {
             "Content-Type": "application/json"
         },
+
+                body: JSON.stringify({
+            command: command
