@@ -21,3 +21,5 @@ async function sendCommand() {
 
                 body: JSON.stringify({
             command: command
+        })
+    });
