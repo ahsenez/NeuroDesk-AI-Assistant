@@ -17,3 +17,4 @@ async function sendCommand() {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
+        },
