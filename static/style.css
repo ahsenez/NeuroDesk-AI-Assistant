@@ -1,4 +1,4 @@
-{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -20,8 +20,8 @@ body {
 }
 
 .sidebar h1 {
-  font-size: 28px;
-  margin-bottom: 45px;
+    font-size: 28px;
+    margin-bottom: 45px;
 }
 
 .sidebar a {
@@ -98,7 +98,6 @@ main {
 .ai-message {
     background: rgba(124,58,237,0.22);
     color: #e9d5ff;
-    color: #e9d5ff;
 }
 
 .user-message {
@@ -129,7 +128,7 @@ button {
     background: #7c3aed;
     color: white;
     font-weight: bold;
-    cursor: pointer;    
+    cursor: pointer;
 }
 
 .cards {
@@ -137,4 +136,41 @@ button {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 22px;
+}
+
+.card {
+    background: rgba(255,255,255,0.07);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 24px;
+    padding: 28px;
+}
+
+.card h3 {
+    font-size: 24px;
+    margin-bottom: 14px;
+}
+
+.card p {
+    color: #cbd5e1;
+}
+
+@media (max-width: 900px) {
+    .sidebar {
+        position: static;
+        width: 100%;
+        height: auto;
+    }
+
+    main {
+        margin-left: 0;
+        padding: 24px;
+    }
+
+    .cards {
+        grid-template-columns: 1fr;
+    }
+
+    .hero h2 {
+        font-size: 38px;
+    }
 }
