@@ -18,10 +18,20 @@ async function sendCommand() {
         headers: {
             "Content-Type": "application/json"
         },
-
-                body: JSON.stringify({
+        body: JSON.stringify({
             command: command
         })
     });
 
     const data = await response.json();
+
+    const aiMessage = document.createElement("div");
+    aiMessage.className = "ai-message";
+    aiMessage.innerText = data.response;
+
+    chatBox.appendChild(aiMessage);
+
+    input.value = "";
+
+    chatBox.scrollTop = chatBox.scrollHeight;
+}
