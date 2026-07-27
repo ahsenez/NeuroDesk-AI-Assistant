@@ -33,6 +33,12 @@ An intelligent AI assistant with a modern dashboard, smart automation, task mana
 - 🎨 Animated Interface
 
 ---
+## 🐳 Run with Docker
+
+Build and start the application:
+
+```bash
+docker compose up --build
 
 # 🛠 Tech Stack
 
