@@ -39,16 +39,21 @@ Build and start the application:
 
 ```bash
 docker compose up --build
+```
 
-# 🛠 Tech Stack
+Stop the application:
+
+```bash
+docker compose down
+```
+
+## 🛠 Tech Stack
 
 - Python
 - Flask
 - HTML5
 - CSS3
 - JavaScript
-
----
 
 # 📷 Preview
 
