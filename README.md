@@ -1,6 +1,16 @@
 <h1 align="center">🧠 NeuroDesk AI Assistant</h1>
 
 [![Python Tests](https://github.com/ahsenez/NeuroDesk-AI-Assistant/actions/workflows/tests.yml/badge.svg)](https://github.com/ahsenez/NeuroDesk-AI-Assistant/actions/workflows/tests.yml)
+![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python)
+![Flask](https://img.shields.io/badge/Flask-3.x-black?logo=flask)
+![License](https://img.shields.io/github/license/ahsenez/NeuroDesk-AI-Assistant)
+![Last Commit](https://img.shields.io/github/last-commit/ahsenez/NeuroDesk-AI-Assistant)
+![Repo Size](https://img.shields.io/github/repo-size/ahsenez/NeuroDesk-AI-Assistant)
+![Stars](https://img.shields.io/github/stars/ahsenez/NeuroDesk-AI-Assistant?style=social)
+![Forks](https://img.shields.io/github/forks/ahsenez/NeuroDesk-AI-Assistant?style=social)
+
+
+
 
 <p align="center">
 An intelligent AI assistant with a modern dashboard, smart automation, task management and productivity tools.
