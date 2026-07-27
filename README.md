@@ -1,5 +1,7 @@
 <h1 align="center">🧠 NeuroDesk AI Assistant</h1>
 
+[![Python Tests](https://github.com/ahsenez/NeuroDesk-AI-Assistant/actions/workflows/tests.yml/badge.svg)](https://github.com/ahsenez/NeuroDesk-AI-Assistant/actions/workflows/tests.yml)
+
 <p align="center">
 An intelligent AI assistant with a modern dashboard, smart automation, task management and productivity tools.
 </p>
