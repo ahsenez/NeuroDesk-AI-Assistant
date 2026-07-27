@@ -55,11 +55,7 @@ docker compose down
 - CSS3
 - JavaScript
 
-# 📷 Preview
 
-> Dashboard Screenshot
-
-(Add a screenshot here later.)
 
 ---
 
