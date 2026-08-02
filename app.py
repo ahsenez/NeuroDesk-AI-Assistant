@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request, jsonify
-from openai import OpenAI
+from google import genai
 from dotenv import load_dotenv
 import os
 
@@ -8,9 +8,8 @@ load_dotenv()
 
 app = Flask(__name__)
 
-# OpenAI istemcisi
-client = OpenAI(
-    api_key=os.getenv("OPENAI_API_KEY")
+gemini_client = genai.Client(
+    api_key=os.getenv("GEMINI_API_KEY")
 )
 
 @app.route("/")
