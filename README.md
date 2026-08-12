@@ -104,9 +104,6 @@ NeuroDesk-AI-Assistant
 
 ---
 
-## 👨‍💻 Author
-
-**Ahsen Ezgün**
 
 Management Information Systems
 
