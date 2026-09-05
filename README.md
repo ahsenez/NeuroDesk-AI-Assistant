@@ -108,3 +108,7 @@ NeuroDesk-AI-Assistant
 Management Information Systems
 
 AI • Python • Flask • Web Development
+
+
+
+ahsen ezgün
