@@ -102,9 +102,13 @@ NeuroDesk-AI-Assistant
 - AI Memory
 - User Authentication
 
+
 ---
 
 
 Management Information Systems
 
 AI • Python • Flask • Web Development
+
+
+Ahsen Ezgün
